@@ -59,7 +59,7 @@ cd Add-contact-api
      - **Endpoint:** `GET localhost:5000/api/contacts`
     
     - **Delete a Contact**
-     - **Endpoint:** `DELETE localhost:5000/api/contacts/:id`
+      - **Endpoint:** `DELETE localhost:5000/api/contacts/:id`
       
    - **Search Contacts by Name or Phone Number**
      - **Endpoint:** `GET localhost:5000/api/contacts/search?q=query`
