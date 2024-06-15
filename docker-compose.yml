@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: contact_list_app
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb+srv://sarpaneshubham97:Shubham%4012345@contact.uf9mntz.mongodb.net/ContactList?retryWrites=true&w=majority
+    volumes:
+      - .:/usr/src/app
