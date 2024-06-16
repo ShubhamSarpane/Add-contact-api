@@ -68,6 +68,10 @@ cd Add-contact-api
    - **Export Contacts as CSV File**
      - **Endpoint:** `GET localhost:5000/api/contacts/export/csv`
      - Csv file will be saved inside the local machine.
+
+   - **Get image using id**
+     - **Endpoint:** `GET localhost:5000/api/contact/;id/image`
+     - It fetch the image of the contact .
       
 3. **Verify Responses**: Check the response in Postman's "Response" section to ensure the operation was successful.
 
