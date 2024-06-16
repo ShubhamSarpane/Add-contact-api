@@ -39,8 +39,8 @@ cd Add-contact-api
        ```
         {
          "name": "John Doe",
-         "phoneNumbers": ["1234567890", "9876543210"],
-         "imageUrl": Select file / "https://example.com/xyz.jpg",
+         "phoneNumbers": ["1234567890"],
+         "image": Select file ,
        }
        ```
        
@@ -51,7 +51,7 @@ cd Add-contact-api
        {
          "name": "Updated Name",
          "phoneNumbers": ["9999999999"],
-         "imageUrl": Select file / "https://example.com/xyz.jpg",
+         "image": Select file ,
        }
        ```
        
